@@ -36,8 +36,8 @@ function ProfileForm() {
     <div className='w-full'>
       {/* corner notification and avatar icons */}
       <div className='flex justify-end w-full items-center gap-3 p-5'>
-        <NotificationsOutlinedIcon className='bg-gray-300 rounded-full w-8 h-8 p-1' />
-        <Avatar src='https://cdn.iconscout.com/icon/free/png-256/free-avatar-370-456322.png?f=webp' className='w-8 h-8' />
+        <NotificationsOutlinedIcon className='bg-gray-300 rounded-full p-1' sx={{ width:'2rem',height:'2rem' }}/>
+        <Avatar sx={{ width:'2rem',height:'2rem' }}  src='https://cdn.iconscout.com/icon/free/png-256/free-avatar-370-456322.png?f=webp'  />
       </div>
 
       {/* profile form */}
@@ -46,7 +46,7 @@ function ProfileForm() {
         {/* avatar */}
         <div className='flex w-full justify-between items-center'>
           <h1 className='text-4xl font-semibold'>Edit profile</h1>
-          <Avatar src='https://cdn.iconscout.com/icon/free/png-256/free-avatar-370-456322.png?f=webp' className='w-24 h-24' />
+          <Avatar sx={{ width:'6rem',height:'6rem' }}  src='https://cdn.iconscout.com/icon/free/png-256/free-avatar-370-456322.png?f=webp'  />
         </div>
 
         {/* first and last name */}
